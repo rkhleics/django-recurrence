@@ -1,5 +1,13 @@
 # django-recurrence
 
+---
+
+## RKH
+
+Patched for compatibility with wagtail 2.12. The upstream package includes the Django admin js libs, which cause issues with Wagtail's. These are removed in this fork, along with a couple of other minor fixes.
+
+---
+
 [![Build Status](https://travis-ci.org/django-recurrence/django-recurrence.svg?branch=master)](https://travis-ci.org/django-recurrence/django-recurrence)
 
 django-recurrence is a utility for working with recurring dates in
