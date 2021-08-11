@@ -18,10 +18,7 @@ class RecurrenceWidget(forms.Textarea):
         super().__init__(defaults)
 
     def get_media(self):
-        extra = '' if settings.DEBUG else '.min'
         js = [
-            'admin/js/vendor/jquery/jquery%s.js' % extra,
-            'admin/js/jquery.init.js',
             staticfiles_storage.url('recurrence/js/recurrence.js'),
             staticfiles_storage.url('recurrence/js/recurrence-widget.js'),
             staticfiles_storage.url('recurrence/js/recurrence-widget.init.js'),
