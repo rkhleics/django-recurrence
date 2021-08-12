@@ -25,7 +25,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name="django-recurrence",
-    version="1.10.3",
+    version="2.0.0",
     license="BSD",
     description="Django utility wrapping dateutil.rrule",
     long_description=long_description,
